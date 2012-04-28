@@ -1,0 +1,14 @@
+
+ASP.Net Authorization NOT persisting example
+--------------------------------------------
+
+Basic MVC3 project with forms authentication options selected as part of the setup wizard.
+
+No changes made except within the POST method "public ActionResult LogOn(LogOnModel model, string returnUrl)" within the AccountController class.
+
+Purpose of example is to show that users authetication is not persisted across browser sessions even though the auth tickets isPersistent flag is set to true.
+The only way I can get the authorization and therefore implement a "rememeber me" from the login is to add the following after the cookie object is created.
+
+    if (thisIsPersistent)
+        cookie.Expires = DateTime.Now.AddYears(1);
+ 

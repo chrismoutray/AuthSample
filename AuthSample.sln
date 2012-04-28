@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSample", "AuthSample\AuthSample.csproj", "{C7827CB3-4075-4D68-967B-2DC15E443C85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSample.Tests", "AuthSample.Tests\AuthSample.Tests.csproj", "{B5D807DB-9650-45AF-90AD-B218121E72E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7827CB3-4075-4D68-967B-2DC15E443C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7827CB3-4075-4D68-967B-2DC15E443C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7827CB3-4075-4D68-967B-2DC15E443C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7827CB3-4075-4D68-967B-2DC15E443C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D807DB-9650-45AF-90AD-B218121E72E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D807DB-9650-45AF-90AD-B218121E72E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D807DB-9650-45AF-90AD-B218121E72E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D807DB-9650-45AF-90AD-B218121E72E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
